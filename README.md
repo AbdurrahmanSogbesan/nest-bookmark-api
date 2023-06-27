@@ -103,13 +103,13 @@ $ yarn test:e2e
 
 The API uses PostgreSQL as the database. Docker is used for easy database setup and management. The database configuration can be found in the `.env` file.
 
-To start the database in development mode:
+To start the development database:
 
 ```bash
 $ yarn db:dev:up
 ```
 
-To start the database in test mode:
+To start the test database:
 
 ```bash
 $ yarn db:test:up
